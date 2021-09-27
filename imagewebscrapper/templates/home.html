@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>"Home page"</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
+crossorigin="anonymous">
+</head>
+
+<body>
+<div>
+<br><br>
+<div class="container-sm">
+<div class="card">
+  <div class="card-header" align="center">
+    Download Image
+  </div>
+  <div class="card-body" align="center">
+  <form action='/searchimage' method='POST'>
+    <input class="form-control" type="text" name="keyword" placeholder="Enter Search Item" required>
+    <!--<label class="card-header" for="numberImage">Number Of Images</label> -->
+    <div class="card-header" align="center">
+    Number Of Images
+  </div>
+    
+    <input class="form-control"  name="count" id ="numberImage" placeholder=1 required>
+    
+    <br>
+    <!--<h5 class="card-title">Special title treatment</h5> -->
+    <!--<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+    <input type='submit' class="btn btn-primary" align="center" value='Submit'>
+    
+  </form>
+  </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
